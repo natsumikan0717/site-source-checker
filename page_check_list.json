@@ -1,0 +1,12 @@
+{
+    "page_list": [
+    {
+        "page" : "https://www.google.com/",
+        "name" : "google"
+    },
+    {
+        "page" : "https://www.yahoo.co.jp/",
+        "name" : "yahoo"
+    }
+    ]
+}
