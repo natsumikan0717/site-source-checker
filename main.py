@@ -11,7 +11,6 @@ dt = now.date().strftime('%Y%m%d')
 # 1. 取得したいURLを指定
 page = "https://www.google.com/"
 name = "google"
-
 try:
     # 2. ページ内容を取得
     response = requests.get(page)
