@@ -1,7 +1,6 @@
 import requests
 import datetime
 
-
 # 0. ファイル名に用いる日付のフォーマット定義
 t_delta = datetime.timedelta(hours=9)
 JST = datetime.timezone(t_delta, 'JST')
@@ -31,5 +30,6 @@ try:
     print("ファイルへの書き出しが完了しました。")
     print(dt)
 
+3.エラーが発生した場合はエラーメッセージを表示する
 except requests.exceptions.RequestException as e:
     print(f"エラーが発生しました: {e}")
