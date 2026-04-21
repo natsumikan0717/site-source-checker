@@ -30,6 +30,6 @@ try:
     print("ファイルへの書き出しが完了しました。")
     print(dt)
 
-3.エラーが発生した場合はエラーメッセージを表示する
+# 3.エラーが発生した場合はエラーメッセージを表示する
 except requests.exceptions.RequestException as e:
     print(f"エラーが発生しました: {e}")
